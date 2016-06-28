@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="E:\SourceTree\ck\Adnroid_app\TargerJunit\assets" />
+        <source path="F:\git\testTarget\TargerJunit\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\SourceTree\ck\Adnroid_app\TargerJunit\build-types\debug\assets" />
+        <source path="F:\git\testTarget\TargerJunit\build-types\debug\assets" />
     </dataSet>
 
 </merger>

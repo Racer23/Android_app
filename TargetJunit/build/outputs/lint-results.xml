@@ -16,9 +16,41 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine1="    &lt;uses-sdk"
         errorLine2="    ^">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\AndroidManifest.xml"
+            file="F:\git\testTarget\TargerJunit\AndroidManifest.xml"
             line="7"
             column="5"/>
+    </issue>
+
+    <issue
+        id="PropertyEscape"
+        severity="Error"
+        message="Colon (:) must be escaped in .property files"
+        category="Correctness"
+        priority="6"
+        summary="Looks for property files with incorrect paths"
+        explanation="All backslashes and colons in .property files must be escaped with a backslash (\). This means that when writing a Windows path, you must escape the file separators, so the path \My\Files should be written as `key=\\My\\Files.`"
+        errorLine1="sdk.dir=F://\u7F16\u7A0B\u8F6F\u4EF6/eclipse/android-sdk-windows"
+        errorLine2="         ~">
+        <location
+            file="F:\git\testTarget\TargerJunit\local.properties"
+            line="11"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="PropertyEscape"
+        severity="Error"
+        message="Windows file separators (\) must be escaped (\\); use F://\\u7F16\\u7A0B\\u8F6F\\u4EF6/eclipse/android-sdk-windows"
+        category="Correctness"
+        priority="6"
+        summary="Looks for property files with incorrect paths"
+        explanation="All backslashes and colons in .property files must be escaped with a backslash (\). This means that when writing a Windows path, you must escape the file separators, so the path \My\Files should be written as `key=\\My\\Files.`"
+        errorLine1="sdk.dir=F://\u7F16\u7A0B\u8F6F\u4EF6/eclipse/android-sdk-windows"
+        errorLine2="        ^">
+        <location
+            file="F:\git\testTarget\TargerJunit\local.properties"
+            line="11"
+            column="9"/>
     </issue>
 
     <issue
@@ -32,11 +64,11 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine1="    &lt;dimen name=&quot;activity_horizontal_margin&quot;>16dp&lt;/dimen>"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\values\dimens.xml"
+            file="F:\git\testTarget\TargerJunit\res\values\dimens.xml"
             line="4"
             column="12"/>
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\values-w820dp\dimens.xml"
+            file="F:\git\testTarget\TargerJunit\res\values-w820dp\dimens.xml"
             line="8"
             column="12"/>
     </issue>
@@ -52,7 +84,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine1="    &lt;dimen name=&quot;activity_vertical_margin&quot;>16dp&lt;/dimen>"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\values\dimens.xml"
+            file="F:\git\testTarget\TargerJunit\res\values\dimens.xml"
             line="5"
             column="12"/>
     </issue>
@@ -66,7 +98,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\menu\main.xml"/>
+            file="F:\git\testTarget\TargerJunit\res\menu\main.xml"/>
     </issue>
 
     <issue
@@ -80,7 +112,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine1="    &lt;string name=&quot;hello_world&quot;>Hello world!&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\values\strings.xml"
+            file="F:\git\testTarget\TargerJunit\res\values\strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -101,7 +133,7 @@ If you really want to keep the text field generic, you can suppress this warning
         errorLine2="        ^"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="20"
             column="9"/>
     </issue>
@@ -122,7 +154,7 @@ If you really want to keep the text field generic, you can suppress this warning
         errorLine2="        ^"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="39"
             column="9"/>
     </issue>
@@ -143,7 +175,7 @@ If you really want to keep the text field generic, you can suppress this warning
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="40"
             column="13"/>
     </issue>
@@ -166,7 +198,7 @@ In Android Studio and Eclipse there are quickfixes to automatically extract this
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="18"
             column="13"/>
     </issue>
@@ -189,7 +221,7 @@ In Android Studio and Eclipse there are quickfixes to automatically extract this
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="37"
             column="13"/>
     </issue>
@@ -212,7 +244,7 @@ In Android Studio and Eclipse there are quickfixes to automatically extract this
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="E:\SourceTree\ck\Adnroid_app\TargerJunit\res\layout\activity_main.xml"
+            file="F:\git\testTarget\TargerJunit\res\layout\activity_main.xml"
             line="52"
             column="9"/>
     </issue>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/SourceTree/ck/Adnroid_app/TargerJunit/res/values/dimens.xml -->
+    <!-- From: file:/F:/git/testTarget/TargerJunit/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/E:/SourceTree/ck/Adnroid_app/TargerJunit/res/values/strings.xml -->
+    <!-- From: file:/F:/git/testTarget/TargerJunit/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
-    <string name="app_name">TargerJunit</string>
+    <string name="app_name">TargetJunit</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/E:/SourceTree/ck/Adnroid_app/TargerJunit/res/values/styles.xml -->
+    <!-- From: file:/F:/git/testTarget/TargerJunit/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

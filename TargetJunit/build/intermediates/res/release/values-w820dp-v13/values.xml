@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/SourceTree/ck/Adnroid_app/TargerJunit/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/F:/git/testTarget/TargerJunit/res/values-w820dp/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">64dp</dimen>
