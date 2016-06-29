@@ -108,7 +108,7 @@
     -->
     <!-- version-tag: 1 -->
 
-    <import file="F:/编程软件/eclipse/android-sdk-windows/tools/ant.xml" /> 
+    <import file="F:/AndroidStudio/Sdk/tools/ant/build.xml" />
 
     <taskdef
         name="findbugs"
