@@ -8,11 +8,13 @@ buildscript {
 }
 apply plugin: 'com.android.application'
 
-
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "24"
+    buildToolsVersion "23.0.3"
 
     sourceSets {
         main {
